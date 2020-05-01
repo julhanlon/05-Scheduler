@@ -24,28 +24,18 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
+      <h1 id="title" class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <div class="row">
-        <div class="col-2 font-weight-bold">
-          Time
-        </div>
-        <div class="col-6 font-weight-bold">
-          Schedule
-        </div>
-        <div class="col-1 font-weight-bold">
-          Save
-        </div>
-      </div>
+      <!-- Time blocks start here -->
       <section class="row">
         <div class="col-2 hour">
-          9:00am
+          <p>9:00-10:00am</p>
         </div>
-        <div class="col-6 decription">
-          <textarea name="text9" id="text9" cols="55" rows="2"></textarea>
+        <div id="time9" data-id="9" class="col-7 description">
+          <textarea id="text9" cols="75" rows="3"></textarea>
         </div>
         <div class="col-1">
           <button id="saveBtn9" class="saveBtn" type="submit">Save</button>
@@ -53,10 +43,10 @@
       </section>
       <section class="row">
         <div class="col-2 hour">
-          10:00am
+          <p>10:00-11:00am</p>
         </div>
-        <div class="col-6 decription">
-          <textarea name="text10" id="text10" cols="55" rows="2"></textarea>
+        <div id="time10" data-id="10" class="col-7 decription">
+          <textarea id="text10" cols="75" rows="3"></textarea>
         </div>
         <div class="col-1">
           <button id="saveBtn10" class="saveBtn" type="submit">Save</button>
@@ -64,10 +54,10 @@
       </section>
       <section class="row">
         <div class="col-2 hour">
-          11:00am
+          <p>11:00-12:00pm</p>
         </div>
-        <div class="col-6 decription">
-          <textarea name="test" id="text11" cols="55" rows="2"></textarea>
+        <div id="time11" data-id="11" class="col-7 decription">
+          <textarea id="text11" cols="75" rows="3"></textarea>
         </div>
         <div class="col-1">
           <button id="saveBtn11" class="saveBtn" type="submit">Save</button>
@@ -75,10 +65,10 @@
       </section>
       <section class="row">
         <div class="col-2 hour">
-          12:00pm
+          <p>12:00-1:00pm</p>
         </div>
-        <div class="col-6 decription">
-          <textarea name="test" id="text12" cols="55" rows="2"></textarea>
+        <div id="time12" data-id="12" class="col-7 decription">
+          <textarea id="text12" cols="75" rows="3"></textarea>
         </div>
         <div class="col-1">
           <button id="saveBtn12" class="saveBtn" type="submit">Save</button>
@@ -86,21 +76,10 @@
       </section>
       <section class="row">
         <div class="col-2 hour">
-          1:00pm
+          <p>1:00-2:00pm</p>
         </div>
-        <div class="col-6 decription">
-          <textarea name="text1" id="text1" cols="55" rows="2"></textarea>
-        </div>
-        <div class="col-1">
-          <button id="saveBtn1" class="saveBtn" type="submit">Save</button>
-        </div>
-      </section>
-      <section class="row">
-        <div class="col-2 hour">
-          2:00pm
-        </div>
-        <div class="col-6 decription">
-          <textarea name="text2" id="text2" cols="55" rows="2"></textarea>
+        <div id="time1" data-id="13" class="col-7 decription">
+          <textarea id="text1" cols="75" rows="3"></textarea>
         </div>
         <div class="col-1">
           <button id="saveBtn1" class="saveBtn" type="submit">Save</button>
@@ -108,10 +87,21 @@
       </section>
       <section class="row">
         <div class="col-2 hour">
-          3:00pm
+          <p>2:00-3:00pm</p>
         </div>
-        <div id="time3" data-id="3" class="col-6 decription">
-          <textarea name="text3" id="text3" cols="55" rows="2"></textarea>
+        <div id="time2" data-id="14" class="col-7 decription">
+          <textarea id="text2" cols="75" rows="3"></textarea>
+        </div>
+        <div class="col-1">
+          <button id="saveBtn1" class="saveBtn" type="submit">Save</button>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-2 hour">
+          <p>3:00-4:00pm</p>
+        </div>
+        <div id="time3" data-id="15" class="col-7 decription">
+          <textarea id="text3" cols="75" rows="3"></textarea>
         </div>
         <div class="col-1">
           <button id="saveBtn3" class="saveBtn" type="submit">Save</button>
@@ -119,27 +109,15 @@
       </section>
       <section class="row">
         <div class="col-2 hour">
-          4:00pm
+          <p>4:00-5:00pm</p>
         </div>
-        <div class="col-6 decription">
-          <textarea name="text4" id="text4" cols="55" rows="2"></textarea>
+        <div id="time4" data-id="16" class="col-7 decription">
+          <textarea id="text4" cols="75" rows="3"></textarea>
         </div>
         <div class="col-1">
           <button id="saveBtn4" class="saveBtn" type="submit">Save</button>
         </div>
       </section>
-      <section class="row">
-        <div class="col-2 hour">
-          5:00pm
-        </div>
-        <div class="col-6 decription">
-          <textarea name="text5" id="text5" cols="55" rows="2"></textarea>
-        </div>
-        <div class="col-1">
-          <button id="saveBtn5" class="saveBtn" type="submit">Save</button>
-        </div>
-      </section>
-      <!-- Timeblocks go here -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
