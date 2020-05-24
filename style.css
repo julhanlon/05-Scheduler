@@ -1,0 +1,111 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  /* border-left: 1px solid black; */
+}
+
+.jumbotron {
+  background-color: #ff6961;
+  opacity: 0.7;
+  color: black;
+  border-radius: 0;
+  border-bottom: solid #0e0d0d 3px;
+  flex-direction: column;
+  padding: 1.6rem 1rem !important;
+  text-align: center;
+}
+
+header {
+  height: 150px;
+}
+
+#title {
+  font-size: 40px;
+}
+
+.description {
+  white-space: pre-wrap;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 7px;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#rowHeader {
+  height: 47px;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+  opacity: 0.7;
+  border-top: 1px dashed #000000;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+  opacity: 0.7;
+  border-top: 1px dashed #000000;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+  opacity: 0.7;
+  border-top: 1px dashed #000000;
+}
+
+.saveBtn {
+  background-color: #06aed5;
+  height: 80px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+}
+
+.saveBtn:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.col-1 {
+  display: flex;
+  align-items: center;
+}
+
+.save {
+  height: 40px%;
+  width: 40px;
+  padding-top: 10px;
+}
