@@ -44,8 +44,8 @@ header {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
-  margin-top: 5px;
+  border-top: 1px solid black;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 
@@ -103,7 +103,7 @@ header {
 }
 
 .save {
-  height: 40px%;
+  height: 40px;
   width: 40px;
   padding-top: 10px;
 }
