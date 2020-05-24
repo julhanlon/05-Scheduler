@@ -15,7 +15,7 @@ $(document).ready(function () {
 
   var currentDay = moment().format("dddd");
   console.log(currentDay);
-  $("#currentDay").append(currentDay);
+  $("#currentDay").append(" " + currentDay);
 
   var timeBlock9 = $("#time9").attr("data-id");
   var timeAt9 = parseInt(timeBlock9);
